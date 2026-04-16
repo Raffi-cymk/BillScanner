@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23840320506",
+    "project_id": "billscanner-8fac6",
+    "storage_bucket": "billscanner-8fac6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23840320506:android:dc4d7098b0e1468640d243",
+        "android_client_info": {
+          "package_name": "com.raffipasya.billscanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6__FSfv-_t-AtzM9tasS2itp3uqD3f3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
