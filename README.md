@@ -95,7 +95,7 @@ Kembali ke dashboard setelah proses input/pembayaran. Daftar tagihan sudah muncu
 Kalau buat update GitHub yang sekarang, gue bakal bikin singkat, rapi, dan sesuai progres yang memang sudah kelihatan selesai.
 
 
-### Pembaruan Dashboard: Pilihan Scan Otomatis dan Input Manual**
+### Pembaruan Dashboard: Pilihan Scan Otomatis dan Input Manual
 
 <img width="720" height="1600" alt="WhatsApp Image 2026-06-15 at 11 28 29" src="https://github.com/user-attachments/assets/b9287dbd-e7b0-4088-882a-c2bd07659874" />
 
