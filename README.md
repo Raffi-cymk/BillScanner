@@ -92,9 +92,47 @@ Kembali ke dashboard setelah proses input/pembayaran. Daftar tagihan sudah muncu
 <img width="720" height="1600" alt="Screenshot_20260418-052259" src="https://github.com/user-attachments/assets/cb935316-6761-41de-a771-16a088d74bfe" />
 
 
----
+Kalau buat update GitHub yang sekarang, gue bakal bikin singkat, rapi, dan sesuai progres yang memang sudah kelihatan selesai.
 
-## 📌 Catatan
 
-* Data tersimpan secara online (Firebase)
-* Aplikasi masih tahap pengembangan (tanpa autentikasi & OCR)
+### Pembaruan Dashboard: Pilihan Scan Otomatis dan Input Manual**
+
+<img width="720" height="1600" alt="WhatsApp Image 2026-06-15 at 11 28 29" src="https://github.com/user-attachments/assets/b9287dbd-e7b0-4088-882a-c2bd07659874" />
+
+Dashboard kini menyediakan dua metode input tagihan:
+
+* **Scan Otomatis** (alur OCR/AI sedang dalam tahap pengembangan)
+* **Input Manual** (sudah berfungsi penuh)
+
+Alur input manual telah berhasil terhubung hingga:
+
+* Input Tagihan
+* Detail Tagihan
+* Payment Success
+
+Penyimpanan data ke Firebase Realtime Database juga telah berhasil berjalan dengan normal.
+
+### Keterangan Screenshot
+
+> Tampilan Dashboard terbaru dengan dua pilihan metode input tagihan: Scan Otomatis dan Input Manual.
+
+### Estimasi Progress
+**≈ 92%**
+
+Alasannya:
+
+✅ Flow aplikasi utama sudah jalan dari awal sampai akhir.
+
+✅ Firebase sudah berhasil menyimpan data.
+
+✅ Navigasi antar halaman sudah berfungsi.
+
+✅ Input manual sudah selesai dan dapat digunakan.
+
+✅ UI utama sudah jadi.
+
+❌ Riwayat tagihan di Dashboard masih belum sinkron dengan Firebase.
+
+❌ Fitur Scan Otomatis OCR/AI belum dibuat.
+
+❌ Belum ada proses pembacaan nominal dari kamera.
