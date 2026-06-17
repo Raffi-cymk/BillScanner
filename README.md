@@ -119,6 +119,7 @@ Penyimpanan data ke Firebase Realtime Database juga telah berhasil berjalan deng
 **≈ 92%**
 
 Alasannya:
+
 ✅ Flow aplikasi utama sudah jalan dari awal sampai akhir.
 
 ✅ Firebase sudah berhasil menyimpan data.
