@@ -96,8 +96,7 @@ Kalau buat update GitHub yang sekarang, gue bakal bikin singkat, rapi, dan sesua
 
 
 ### Pembaruan Dashboard: Pilihan Scan Otomatis dan Input Manual
-
-<img width="720" height="1600" alt="WhatsApp Image 2026-06-15 at 11 28 29" src="https://github.com/user-attachments/assets/b9287dbd-e7b0-4088-882a-c2bd07659874" />
+<img width="720" height="1022" alt="WhatsApp Image 2026-06-17 at 09 39 09" src="https://github.com/user-attachments/assets/0bcb2b2d-1830-4ee1-a318-c6a5bbf018ad" />
 
 Dashboard kini menyediakan dua metode input tagihan:
 
