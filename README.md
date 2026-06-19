@@ -135,3 +135,34 @@ Alasannya:
 ❌ Fitur Scan Otomatis OCR/AI belum dibuat.
 
 ❌ Belum ada proses pembacaan nominal dari kamera.
+
+Karena ini lanjutan setelah **Dashboard sudah berhasil sinkron ke Firebase** dan sekarang **kamera sudah berhasil tampil**, maka update ClickUp-nya bisa dibuat singkat seperti ini:
+
+---
+
+### Pengembangan Fitur Scan Otomatis (CameraX)
+<img width="691" height="1536" alt="Screenshot_2026-06-19_082957 027" src="https://github.com/user-attachments/assets/da03a12c-9136-48ed-ba9f-3e709161c29a" />
+
+* Berhasil mengintegrasikan kamera menggunakan CameraX.
+* Preview kamera sudah tampil di Dashboard2.
+* Tombol "Ambil Foto Tagihan" sudah berfungsi.
+* Saat ini masih menggunakan data simulasi (Rp 50.000).
+* OCR/AI pembaca teks tagihan belum diimplementasikan.
+
+Status Progres: **94%**
+
+### Alasan
+Yang sudah selesai:
+✅ Login
+✅ Dashboard
+✅ Input Manual
+✅ Firebase Realtime Database
+✅ Riwayat Tagihan
+✅ Total Tagihan Otomatis
+✅ Navigasi Aplikasi
+✅ Kamera (Preview CameraX)
+
+Yang belum:
+⏳ OCR / AI pembaca teks tagihan otomatis
+⏳ Ekstraksi nominal dari foto
+⏳ Validasi hasil scan
