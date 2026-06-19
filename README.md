@@ -177,3 +177,16 @@ Yang belum:
 ⏳ Ekstraksi nominal dari foto
 
 ⏳ Validasi hasil scan
+
+
+---
+
+## Update Progress - CameraX & OCR Preparation
+
+<img width="720" height="1600" alt="Screenshot_2026-06-20_053655 371" src="https://github.com/user-attachments/assets/0b9ea678-7b2b-4748-a3af-4fe9b8536be7" />
+
+Fitur scan otomatis memasuki tahap persiapan OCR. Kamera berhasil ditampilkan menggunakan CameraX dan telah terintegrasi dengan ML Kit Text Recognition. Permission kamera, preview kamera, dan tombol OCR berjalan normal tanpa mengganggu fitur Firebase maupun input manual yang sudah stabil sebelumnya.
+
+Tahap berikutnya adalah implementasi pengambilan foto (ImageCapture), pembacaan teks dari gambar, serta ekstraksi nominal tagihan secara otomatis sebelum diteruskan ke halaman detail tagihan.
+
+Progress Proyek Saat Ini: 95,4%
