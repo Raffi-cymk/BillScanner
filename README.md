@@ -153,6 +153,7 @@ Status Progres: **94%**
 
 ### Alasan
 Yang sudah selesai:
+
 ✅ Login
 
 ✅ Dashboard
@@ -169,7 +170,9 @@ Yang sudah selesai:
 
 ✅ Kamera (Preview CameraX)
 
+
 Yang belum:
+
 ⏳ OCR / AI pembaca teks tagihan otomatis
 
 ⏳ Ekstraksi nominal dari foto
