@@ -154,15 +154,24 @@ Status Progres: **94%**
 ### Alasan
 Yang sudah selesai:
 ✅ Login
+
 ✅ Dashboard
+
 ✅ Input Manual
+
 ✅ Firebase Realtime Database
+
 ✅ Riwayat Tagihan
+
 ✅ Total Tagihan Otomatis
+
 ✅ Navigasi Aplikasi
+
 ✅ Kamera (Preview CameraX)
 
 Yang belum:
 ⏳ OCR / AI pembaca teks tagihan otomatis
+
 ⏳ Ekstraksi nominal dari foto
+
 ⏳ Validasi hasil scan
