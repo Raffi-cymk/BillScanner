@@ -136,7 +136,6 @@ Alasannya:
 
 ❌ Belum ada proses pembacaan nominal dari kamera.
 
-Karena ini lanjutan setelah **Dashboard sudah berhasil sinkron ke Firebase** dan sekarang **kamera sudah berhasil tampil**, maka update ClickUp-nya bisa dibuat singkat seperti ini:
 
 ---
 
