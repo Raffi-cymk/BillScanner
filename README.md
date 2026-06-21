@@ -200,10 +200,6 @@ Siap, kita fokus yang **GitHub update (versi lebih lengkap tapi tetap ringkas)**
 
 ## 📌 UPDATE PROYEK GITHUB – BILLSCANNER (OCR + CAMERAX)
 
-### 🧩 Status Umum Proyek
-
-Fitur utama aplikasi BillScanner sudah masuk tahap **OCR + kamera otomatis** dan berjalan stabil tanpa error. Integrasi CameraX + ML Kit Text Recognition sudah berhasil digunakan untuk membaca teks dari gambar tagihan.
-
 ---
 
 ### 📸 Hasil Pengujian (Screenshot / Skenario)
