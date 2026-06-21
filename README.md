@@ -189,10 +189,6 @@ Progress Proyek Saat Ini: 95,4%
 
 ---
 
-Siap, kita fokus yang **GitHub update (versi lebih lengkap tapi tetap ringkas)** ya. Ini bisa langsung kamu copy.
-
----
-
 ## 📌 UPDATE PROYEK GITHUB – BILLSCANNER (OCR + CAMERAX)
 
 ---
