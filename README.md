@@ -217,3 +217,14 @@ Progress Proyek Saat Ini: 95,4%
 * Output:
 
 > “Nominal ditemukan: Rp 119”
+
+### Skenario 3 – Setelah scan langsung masuk detail
+<img width="720" height="1600" alt="Screenshot_2026-06-21_083548 896 1" src="https://github.com/user-attachments/assets/d8d56d77-28d0-4d7d-802c-ed15d4af2ab2" />
+
+* Kamera + OCR tetap berjalan
+
+* Data sempat diproses, tetapi belum sepenuhnya dikirim ke halaman detail dengan benar
+
+* Output di Bill Detail masih default:
+
+> “Rp 0” (data belum tersinkron penuh dari OCR)
