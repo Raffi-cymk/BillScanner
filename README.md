@@ -240,8 +240,6 @@ Progress Proyek Saat Ini: 95,4%
 
   * hasil OCR → intent → detail halaman
 
----
-
 ### 🎯 Target Berikutnya
 
 * Menyambungkan hasil OCR (`nominalDitemukan`)
@@ -249,7 +247,6 @@ Progress Proyek Saat Ini: 95,4%
 * Menampilkan otomatis di UI detail (bukan Rp 0 lagi)
 * Menyimpan hasil scan ke riwayat dashboard
 
----
 
 ### 📊 Progress Keseluruhan
 
