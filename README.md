@@ -194,37 +194,80 @@ Progress Proyek Saat Ini: 95,4%
 
 ---
 
-## 📸 Hasil Pengujian (Screenshot / Skenario)
+Siap, kita fokus yang **GitHub update (versi lebih lengkap tapi tetap ringkas)** ya. Ini bisa langsung kamu copy.
 
-### Skenario 1 – Gambar tanpa teks jelas
-<img width="720" height="1600" alt="Screenshot_2026-06-21_080701 558" src="https://github.com/user-attachments/assets/607b3521-2f09-4f69-a958-7f978684dc83" />
+---
 
-* Kamera berhasil mengambil gambar
+## 📌 UPDATE PROYEK GITHUB – BILLSCANNER (OCR + CAMERAX)
 
-* OCR tidak menemukan teks
+### 🧩 Status Umum Proyek
 
-* Output aplikasi:
+Fitur utama aplikasi BillScanner sudah masuk tahap **OCR + kamera otomatis** dan berjalan stabil tanpa error. Integrasi CameraX + ML Kit Text Recognition sudah berhasil digunakan untuk membaca teks dari gambar tagihan.
 
-> “Foto jelas, tapi tidak ada teks"
+---
 
-### Skenario 2 – Gambar berisi teks nominal
-<img width="720" height="1600" alt="Screenshot_2026-06-21_081101 386 1" src="https://github.com/user-attachments/assets/fec2c23c-6a6e-433e-b3cd-da6ed00452dd" />
+### 📸 Hasil Pengujian (Screenshot / Skenario)
 
-* OCR berhasil membaca angka dari gambar
+1. **Skenario 1 – Gambar tanpa teks jelas**
+<img width="720" height="1600" alt="Screenshot_2026-06-21_080701 558" src="https://github.com/user-attachments/assets/6185211c-8cfb-485c-bdb9-29456d5d5b08" />
 
-* Sistem parsing berhasil mengekstrak nominal
+   * Kamera berhasil mengambil gambar
+   * OCR tidak menemukan teks
+   * Output aplikasi:
 
-* Output:
+     > “Foto jelas, tapi tidak ada teks”
 
-> “Nominal ditemukan: Rp 119”
+2. **Skenario 2 – Gambar berisi teks nominal**
+<img width="720" height="1600" alt="Screenshot_2026-06-21_081101 386 1" src="https://github.com/user-attachments/assets/119e8412-9962-4ed1-b320-1c6c1983947b" />
 
-### Skenario 3 – Setelah scan langsung masuk detail
-<img width="720" height="1600" alt="Screenshot_2026-06-21_083548 896 1" src="https://github.com/user-attachments/assets/d8d56d77-28d0-4d7d-802c-ed15d4af2ab2" />
+   * OCR berhasil membaca angka dari gambar
+   * Sistem parsing berhasil mengekstrak nominal
+   * Output:
 
-* Kamera + OCR tetap berjalan
+     > “Nominal ditemukan: Rp 119”
 
-* Data sempat diproses, tetapi belum sepenuhnya dikirim ke halaman detail dengan benar
+3. **Skenario 3 – Setelah scan langsung masuk detail**
+<img width="720" height="1600" alt="Screenshot_2026-06-21_083548 896 1" src="https://github.com/user-attachments/assets/e0e8e266-5920-45f3-b2e9-d3465bc5db55" />
 
-* Output di Bill Detail masih default:
+   * Kamera + OCR tetap berjalan
+   * Data sempat diproses, tetapi belum sepenuhnya dikirim ke halaman detail dengan benar
+   * Output di Bill Detail masih default:
 
-> “Rp 0” (data belum tersinkron penuh dari OCR)
+     > “Rp 0” (data belum tersinkron penuh dari OCR)
+
+---
+
+### ⚙️ Fitur yang Sudah Berhasil
+
+* CameraX preview aktif dan stabil
+* Tombol ambil gambar berfungsi
+* ML Kit OCR berhasil membaca teks
+* Fungsi parsing angka (`extractAmount`) sudah aktif
+* Tidak ada error merah di Android Studio
+
+### 🚧 Masalah Tersisa (Final Stage)
+
+* Data hasil OCR belum konsisten masuk ke `BillPageActivity`
+* Riwayat dashboard belum menerima data dari hasil scan otomatis
+* Masih ada mismatch antara:
+
+  * hasil OCR → intent → detail halaman
+
+---
+
+### 🎯 Target Berikutnya
+
+* Menyambungkan hasil OCR (`nominalDitemukan`)
+  ke `BillPageActivity`
+* Menampilkan otomatis di UI detail (bukan Rp 0 lagi)
+* Menyimpan hasil scan ke riwayat dashboard
+
+---
+
+### 📊 Progress Keseluruhan
+
+Estimasi progres: **97.2% – 97.8%**
+
+Sisa 2–3% fokus ke:
+
+* Data flow OCR → Detail Page → Dashboard History
