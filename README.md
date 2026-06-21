@@ -190,3 +190,30 @@ Fitur scan otomatis memasuki tahap persiapan OCR. Kamera berhasil ditampilkan me
 Tahap berikutnya adalah implementasi pengambilan foto (ImageCapture), pembacaan teks dari gambar, serta ekstraksi nominal tagihan secara otomatis sebelum diteruskan ke halaman detail tagihan.
 
 Progress Proyek Saat Ini: 95,4%
+
+
+---
+
+## 📸 Hasil Pengujian (Screenshot / Skenario)
+
+### Skenario 1 – Gambar tanpa teks jelas
+<img width="720" height="1600" alt="Screenshot_2026-06-21_080701 558" src="https://github.com/user-attachments/assets/607b3521-2f09-4f69-a958-7f978684dc83" />
+
+* Kamera berhasil mengambil gambar
+
+* OCR tidak menemukan teks
+
+* Output aplikasi:
+
+> “Foto jelas, tapi tidak ada teks"
+
+### Skenario 2 – Gambar berisi teks nominal
+<img width="720" height="1600" alt="Screenshot_2026-06-21_081101 386 1" src="https://github.com/user-attachments/assets/fec2c23c-6a6e-433e-b3cd-da6ed00452dd" />
+
+* OCR berhasil membaca angka dari gambar
+
+* Sistem parsing berhasil mengekstrak nominal
+
+* Output:
+
+> “Nominal ditemukan: Rp 119”
