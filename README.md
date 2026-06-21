@@ -56,10 +56,6 @@ bills: {
 
 ---
 
-Oke, bener. Kita rapihin **sesuai kondisi real pertama kali buka aplikasi** (belum ada data). Ini versi yang runtut dan masuk akal. Tinggal copas.
-
----
-
 ## 📸 Penjelasan UI
 
 ### Dashboard (Awal)
@@ -92,8 +88,7 @@ Kembali ke dashboard setelah proses input/pembayaran. Daftar tagihan sudah muncu
 <img width="720" height="1600" alt="Screenshot_20260418-052259" src="https://github.com/user-attachments/assets/cb935316-6761-41de-a771-16a088d74bfe" />
 
 
-Kalau buat update GitHub yang sekarang, gue bakal bikin singkat, rapi, dan sesuai progres yang memang sudah kelihatan selesai.
-
+---
 
 ### Pembaruan Dashboard: Pilihan Scan Otomatis dan Input Manual
 <img width="720" height="1022" alt="WhatsApp Image 2026-06-17 at 09 39 09" src="https://github.com/user-attachments/assets/0bcb2b2d-1830-4ee1-a318-c6a5bbf018ad" />
